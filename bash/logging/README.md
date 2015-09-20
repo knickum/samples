@@ -2,7 +2,9 @@
 
 ## Samples to automatically add in syslog logging to bash scripts
 
-All information comes from: http://urbanautomaton.com/blog/2014/09/09/redirecting-bash-script-output-to-syslog/
+All information comes from: http://urbanautomaton.com/blog/2014/09/09/redirecting-bash-script-output-to-syslog/ with
+some additional ideas from
+http://stackoverflow.com/questions/11027679/store-capture-stdout-and-stderr-in-different-variables-bash
 
 1. Logs stdout and stderr to syslog, echoes to stdout, but doesn't differentiate between stdin and stdout
 
