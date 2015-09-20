@@ -2,6 +2,9 @@
 
 ## Samples to automatically add in syslog logging to bash scripts
 
+Preferred option in many cases would probably be option 4, except where making a temp file should be avoided for
+whatever reason or in simple scripts where brevity would be nice
+
 All information comes from: http://urbanautomaton.com/blog/2014/09/09/redirecting-bash-script-output-to-syslog/ with
 some additional ideas from
 http://stackoverflow.com/questions/11027679/store-capture-stdout-and-stderr-in-different-variables-bash
